@@ -19,7 +19,7 @@ const CONFIG = {
   // blog setting (required)
   blog: {
     title: "JEON's TECH BLOG",
-    description: "welcome to morethan-log!",
+    description: "welcome to JEON's TECH BLOG!",
     theme: "auto", // ['light', 'dark', 'auto']
   },
 
@@ -59,7 +59,7 @@ const CONFIG = {
     },
   },
   cusdis: {
-    enable: false,
+    enable: true,
     config: {
       host: "https://cusdis.com",
       appid: "", // Embed Code -> data-app-id value
