@@ -12,7 +12,7 @@ const Footer: React.FC<Props> = () => {
           onClick={() => router.push('/')}
           className="mt-2 cursor-pointer hover:text-black dark:hover:text-gray-100"
         >
-          ← Back
+          ← 이전
         </button>
       </a>
       <a>
@@ -20,7 +20,7 @@ const Footer: React.FC<Props> = () => {
           onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
           className="mt-2 cursor-pointer hover:text-black dark:hover:text-gray-100"
         >
-          ↑ Top
+          ↑ 맨위로
         </button>
       </a>
     </div>
