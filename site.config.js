@@ -53,16 +53,18 @@ const CONFIG = {
   utterances: {
     enable: true,
     config: {
-      repo: "jeonjongyook/morethan-log",
+      repo: "JeonJongYook/comments",
       "issue-term": "og:title",
       label: "💬 Utterances",
+      theme: "photon-dark",
+      crossorigin: "anonymous"
     },
   },
   cusdis: {
     enable: true,
     config: {
       host: "https://cusdis.com",
-      appid: "", // Embed Code -> data-app-id value
+      appid: process.env.CUSDID_APP_ID, // Embed Code -> data-app-id value
     },
   },
   isProd: process.env.VERCEL_ENV === "production", // distinguish between development and production environment (ref: https://vercel.com/docs/environment-variables#system-environment-variables)
