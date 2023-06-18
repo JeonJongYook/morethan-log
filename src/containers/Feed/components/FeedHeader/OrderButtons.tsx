@@ -28,7 +28,7 @@ const OrderButtons: React.FC<Props> = () => {
         }`}
         onClick={() => handleClickOrderBy("내림차순")}
       >
-        Desc
+        내림차순
       </a>
       <a
         className={`cursor-pointer ${
@@ -38,7 +38,7 @@ const OrderButtons: React.FC<Props> = () => {
         }`}
         onClick={() => handleClickOrderBy("오름차순")}
       >
-        Asc
+        오름차순
       </a>
     </div>
   )
