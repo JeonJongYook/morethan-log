@@ -6,7 +6,7 @@ const CONFIG = {
     role: "웹 풀스텍 개발자",
     bio: "성장하는 개발자 전종욱 입니다.",
     email: "eipisieljongyook.dev@gmail.com",
-    // linkedin: "jeonjongyook",
+    linkedin: "jeonjongyook",
     github: "jeonjongyook",
     instagram: "jonguk._.20",
   },
