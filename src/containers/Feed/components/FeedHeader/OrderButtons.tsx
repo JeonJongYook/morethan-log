@@ -1,14 +1,14 @@
 import { useRouter } from "next/router"
 import React from "react"
 
-type TOrder = "asc" | "desc"
+type TOrder = "오름차순" | "내림차순"
 
 type Props = {}
 
 const OrderButtons: React.FC<Props> = () => {
   const router = useRouter()
 
-  const currentOrder = `${router.query.order || ``}` || ("desc" as TOrder)
+  const currentOrder = `${router.query.order || ``}` || ("내림차순" as TOrder)
 
   const handleClickOrderBy = (value: TOrder) => {
     router.push({
