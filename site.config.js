@@ -53,10 +53,9 @@ const CONFIG = {
   utterances: {
     enable: true,
     config: {
-      repo: "JeonJongYook/comments",
+      repo: "jeonjongyook/comments",
       "issue-term": "og:title",
       label: "💬 Utterances",
-      theme: "photon-dark",
     },
   },
   cusdis: {
