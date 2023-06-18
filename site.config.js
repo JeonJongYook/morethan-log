@@ -30,18 +30,18 @@ const CONFIG = {
   ogImageGenerateURL: "https://og-image-korean.vercel.app", // The link to generate OG image, don't end with a slash
   seo: {
     keywords: ["Blog", "Website", "Notion"],
-  },NEXT_PUBLIC_GOOGLE_MEASUREMENT_ID
+  },
 
   // notion configuration (required)
   notionConfig: {
-    pageId: process.env.NOTION_PAGE_ID,
+    pageId: process.env.N OTION_PAGE_ID,
   },
 
   // plugin configuration (optional)
   googleAnalytics: {
     enable: false,
     config: {
-      measurementId: process.env. || "",
+      measurementId: process.env.NEXT_PUBLIC_GOOGLE_MEASUREMENT_ID || "",
     },
   },
   googleSearchConsole: {
@@ -51,9 +51,9 @@ const CONFIG = {
     },
   },
   utterances: {
-    enable: false,
+    enable: true,
     config: {
-      repo: "morethanmin/morethan-log",
+      repo: "jeonjongyook/morethan-log",
       "issue-term": "og:title",
       label: "💬 Utterances",
     },
