@@ -59,10 +59,10 @@ const CONFIG = {
     },
   },
   cusdis: {
-    enable: true,
+    enable: false,
     config: {
       host: "https://cusdis.com",
-      appid: process.env.CUSDID_APP_ID, // Embed Code -> data-app-id value
+      appid: "d464d419-17be-487c-b6a9-178de850af50", // Embed Code -> data-app-id value
     },
   },
   isProd: process.env.VERCEL_ENV === "production", // distinguish between development and production environment (ref: https://vercel.com/docs/environment-variables#system-environment-variables)
