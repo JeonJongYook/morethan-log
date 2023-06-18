@@ -57,7 +57,6 @@ const CONFIG = {
       "issue-term": "og:title",
       label: "💬 Utterances",
       theme: "photon-dark",
-      crossorigin: "anonymous"
     },
   },
   cusdis: {
