@@ -15,7 +15,7 @@ const PostList: React.FC<Props> = ({ q, posts }) => {
 
   const currentTag = `${router.query.tag || ``}` || undefined
   const currentCategory = `${router.query.category || ``}` || DEFAULT_CATEGORY
-  const currentOrder = `${router.query.order || ``}` || "desc"
+  const currentOrder = `${router.query.order || ``}` || "내림차순"
 
   useEffect(() => {
     setFilteredPosts(() => {
@@ -42,7 +42,7 @@ const PostList: React.FC<Props> = ({ q, posts }) => {
         )
       }
       // order
-      if (currentOrder !== "desc") {
+      if (currentOrder !== "내림차순") {
         filteredPosts = filteredPosts.reverse()
       }
 
