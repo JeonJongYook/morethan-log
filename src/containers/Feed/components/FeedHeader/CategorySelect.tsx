@@ -30,7 +30,7 @@ const CategorySelect: React.FC<Props> = ({ data }) => {
         className="text-xl font-bold my-2 dark:text-white flex gap-1 items-center cursor-pointer"
         onClick={handleOpen}
       >
-        {currentCategory} 게시글 <MdExpandMore />
+        {currentCategory} <MdExpandMore />
       </div>
       {opened && (
         <div className="absolute bg-white z-40 p-1 rounded-xl shadow-md">

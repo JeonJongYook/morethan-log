@@ -22,21 +22,21 @@ const OrderButtons: React.FC<Props> = () => {
     <div className={`flex text-sm gap-2  `}>
       <a
         className={`cursor-pointer ${
-          currentOrder === "desc"
+          currentOrder === "내림차순"
             ? "text-black font-bold dark:text-white"
             : "text-gray-500 dark:text-gray-400"
         }`}
-        onClick={() => handleClickOrderBy("desc")}
+        onClick={() => handleClickOrderBy("내림차순")}
       >
         Desc
       </a>
       <a
         className={`cursor-pointer ${
-          currentOrder === "asc"
+          currentOrder === "오름차순"
             ? "text-black font-bold dark:text-white"
             : "text-gray-500 dark:text-gray-400"
         }`}
-        onClick={() => handleClickOrderBy("asc")}
+        onClick={() => handleClickOrderBy("오름차순")}
       >
         Asc
       </a>

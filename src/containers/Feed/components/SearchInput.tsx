@@ -9,7 +9,7 @@ const SearchInput: React.FC<Props> = ({ ...props }) => {
       <input
         className="rounded-2xl px-5 py-2 w-full bg-gray-200 dark:bg-zinc-700 dark:text-white focus:bg-white focus:shadow-md outline-none transition"
         type="text"
-        placeholder="Search Keyword..."
+        placeholder="검색어를 입력해주세요..."
         {...props}
       />
     </div>
